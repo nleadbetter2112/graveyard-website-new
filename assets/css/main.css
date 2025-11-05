@@ -112,6 +112,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
 /* Type */
 
 	html {
@@ -150,6 +151,10 @@ input, select, textarea {
 		line-height: 1.65;
 	        }
 
+    @font-face {
+    font-family: "Chorola";
+    src: url("../webfonts/BlackChorola-Regular.ttf");
+    }
 
 
 	a {
@@ -217,12 +222,12 @@ input, select, textarea {
 		letter-spacing: 0.5rem;
 	}
 
-       	new-rocker-regular {
+   Chorola {
+       font-family: "Chorola";
 		font-size: 2.25rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
 	}
-
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
@@ -257,7 +262,8 @@ input, select, textarea {
 			line-height: 1.5;
 		}
 		
-		new-rocker-regular {
+		Chorola {
+            font-family: "Chorola";
 			font-size: 1.75rem;
 			line-height: 1.4;
 		}
@@ -1688,4 +1694,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
 
